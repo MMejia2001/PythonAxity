@@ -1,0 +1,12 @@
+[
+  {"name": "Ana", "email": "ana@gmail.com", "role": "admin", "active": true,  "amount": 150},
+  {"name": "Luis", "email": "luis@empresa.com", "role": "user",  "active": false, "amount": 20.5},
+  {"name": "Andrea", "email": "andrea@gmail.com", "role": "user", "active": true, "amount": 75},
+  {"name": "Marcos", "email": "marcos@hotmail.com", "role": "user", "active": true, "amount": 10},
+  {"name": "Sofía", "email": "sofia@empresa.com", "role": "manager", "active": true, "amount": 300.25},
+  {"name": "Pedro", "email": "pedro@gmail.com", "role": "user", "active": false, "amount": 40},
+  {"name": "Ariana", "email": "ariana@empresa.com", "role": "admin", "active": true, "amount": 90},
+
+  {"name": "Registro malo", "email": 123, "role": "user", "active": true, "amount": 10},
+  {"email": "faltan_campos@x.com", "role": "user", "active": true, "amount": 10}
+]
