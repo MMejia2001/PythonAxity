@@ -1,0 +1,8 @@
+date,category,amount
+2026-01-01,food,120.50
+2026-01-01,tools,300
+2026-01-02,food,50
+2026-01-02,clothes,200.75
+2026-01-03,food,not_a_number
+2026-01-03,tools,80
+2026-01-03,,25

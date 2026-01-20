@@ -1,0 +1,41 @@
+{
+  "source_file": "C:\\Users\\marco.mejia\\Desktop\\LABORATORIOS PYTHON\\lab-io\\data\\sales.csv",
+  "generated_at": "2026-01-13T23:40:14.010599+00:00",
+  "rows": {
+    "total": 7,
+    "valid": 5,
+    "invalid": 2
+  },
+  "metrics": {
+    "total_amount": 751.25,
+    "avg_amount": 150.25
+  },
+  "by_category": {
+    "clothes": {
+      "count": 1,
+      "total": 200.75
+    },
+    "food": {
+      "count": 2,
+      "total": 170.5
+    },
+    "tools": {
+      "count": 2,
+      "total": 380.0
+    }
+  },
+  "top_categories": [
+    {
+      "category": "tools",
+      "total": 380.0
+    },
+    {
+      "category": "clothes",
+      "total": 200.75
+    },
+    {
+      "category": "food",
+      "total": 170.5
+    }
+  ]
+}
