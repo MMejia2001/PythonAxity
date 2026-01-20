@@ -1,0 +1,58 @@
+[project]
+name = "lab-tipado"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "MarcoM3j14",email = "marcomejia2001@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic (>=2.12.5,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "lab_tipado", from = "src"}]
+
+# =========================
+# Herramientas de calidad
+# =========================
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+src_paths = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # E=PEP8, F=errores comunes, I=imports
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+check_untyped_defs = true
+pretty = true
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=25.12.0,<26.0.0)",
+    "isort (>=7.0.0,<8.0.0)",
+    "ruff (>=0.14.11,<0.15.0)",
+    "pre-commit (>=4.5.1,<5.0.0)",
+    "mypy (>=1.19.1,<2.0.0)"
+]
